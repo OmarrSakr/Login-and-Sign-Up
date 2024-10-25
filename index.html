@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login and Sign up From</title>
+
+    <!-- * Browser Icon -->
+    <link rel="shortcut icon" href="./assets/Imgs/download.png">
+
+    <!-- ^========|> Poppins Font  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ^ Font Awesome Library -->
+    <link rel="stylesheet" href="./assets/CSS/all.min.css">
+
+    <!-- ^ Bootstrap Css File -->
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
+
+    <!-- ^ Main Css File -->
+    <link rel=" stylesheet" href="./assets/CSS/style.css">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container ">
+            <div class="forms-container">
+                <div class="signin-signup">
+                    <form class="sign-in-form bg-white">
+                        <h2 class="title">Sign in</h2>
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="signin-username" placeholder="Username" autocomplete="off">
+                            <p class="username-error error-message  "></p>
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="signin-password" placeholder="Password" autocomplete="off">
+                            <p class="password-error error-message "></p>
+                        </div>
+                        <!-- <input type="submit" value="Login" class="btn solid" /> -->
+                        <button type="submit" class="btn solid sign-in">Login</button>
+                        <p class="social-text">Or Sign in with Social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+
+                    </form>
+                    <form class="sign-up-form">
+                        <h2 class="title">Sign up</h2>
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Username" autocomplete="off">
+                            <p class="username-error error-message"></p>
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Email" autocomplete="off" />
+                            <p class="email-error error-message"></p>
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password" autocomplete="off">
+                            <p class="password-error error-message"></p>
+                        </div>
+                        <!-- <input type="submit" class="btn" value="Sign up" /> -->
+                        <button type="submit" class="btn sign-up">Sign up</button>
+                        <p class="social-text">Or Sign up with social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here ?</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+                        ex ratione. Aliquid!
+                    </p>
+                    <button class="btn transparent" id="sign-up-btn">
+                        Sign up
+                    </button>
+                </div>
+                <img src="./assets/Imgs/log.svg" class="image" alt="Man next to him rocket shooting up" />
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us ?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                        laboriosam ad.
+                    </p>
+                    <button class="btn transparent" id="sign-in-btn">
+                        Sign in
+                    </button>
+                </div>
+                <img src="./assets/Imgs/register.svg" class="image"
+                    alt="A girl sitting on a chair with a desk in front of her, holding a tablet playing something like a video" />
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- & Bootstrap Js File -->
+    <script src="./assets/JS/bootstrap.bundle.min.js" defer></script>
+    <!-- & Main Js File -->
+    <script src="./assets/JS/main.js" defer></script>
+</body>
+
+</html>

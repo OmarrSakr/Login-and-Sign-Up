@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- * Browser Icon -->
+    <link rel="shortcut icon" href="./assets/Imgs/download.png">
+
+    <!-- ^========|> Poppins Font  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- ^ Font Awesome Library -->
+    <link rel="stylesheet" href="./assets/CSS/all.min.css">
+
+    <!-- ^ Bootstrap Css File -->
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
+
+    <!-- ^ Main Css File -->
+    <link rel=" stylesheet" href="./assets/CSS/home.css">
+
+</head>
+
+<body>
+    <nav class="navbar bg-dark border-bottom border-body " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="#index.html" class="navbar-brand">SMART LOGIN</a>
+            <ul class="navbar-nav ml-auto position-relative">
+                <li class="nav-item d-flex">
+                    <button type="button" class="btn btn-outline-warning " id="logout-btn">Logout</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5 text-center h-100 d-flex align-items-center justify-content-center">
+        <div class="group m-auto w-75 p-5">
+            <h1 id="welcome-message" class="responsive-text"></h1>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- & Bootstrap Js File -->
+    <script src="./assets/JS/bootstrap.bundle.min.js" defer></script>
+    <!-- & Main Js File -->
+    <script src="./assets/JS/main.js" defer></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // logout to Login Page
+            const logoutBtn = document.getElementById("logout-btn");
+
+            logoutBtn.addEventListener("click", function () {
+                window.location.href = "index.html";
+            });
+            // Welcome + Username
+            const username = localStorage.getItem("username");
+            const welcomeMessage = document.getElementById("welcome-message");
+
+            if (username) {
+                welcomeMessage.textContent = `Welcome ${username}`;
+            }
+            else {
+                window.location.href = "index.html";
+            }
+
+            logoutBtn.addEventListener("click", function () {
+                localStorage.removeItem(username);
+                window.location.href = "index.html";
+            })
+        });
+    </script>
+
+</body>
+
+</html>
