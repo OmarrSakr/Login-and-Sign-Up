@@ -1,6 +1,9 @@
 # 🔐 Login & Register
 
-![Login-Register](https://github.com/user-attachments/assets/bef52c6d-8fb7-404f-bec3-131c1f01a146)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/user-attachments/assets/969b2ae2-ec44-41a3-b9e0-1bbac707f5e4" alt="Yummy 2"  style="width: 48%; margin-right: 1%;">
+    <img src="https://github.com/user-attachments/assets/ab2339c1-0d05-40d5-9e8a-6b87c8d2fda1" alt="Yummy 1"  style="width: 48%;">
+</div>
 
 
 Welcome to `Login-Register Website`, a platform designed to provide a seamless experience for
