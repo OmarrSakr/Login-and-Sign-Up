@@ -14,7 +14,7 @@ whether you are a*new* or *returning user*.
 ---
 
 ## Live Demo 🌐
-- Check out the live demo of the project at [Login-Register Website](https://omarrsakr.github.io/Login-and-Sign-Up/).
+- Check out the live demo of the project at [`Login-Register Website`](https://omarrsakr.github.io/Login-and-Sign-Up/).
 
 ---
 
