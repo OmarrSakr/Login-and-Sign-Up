@@ -1,8 +1,8 @@
 # 🔐 Login & Register
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/user-attachments/assets/969b2ae2-ec44-41a3-b9e0-1bbac707f5e4" alt="Yummy 2"  style="width: 48%; margin-right: 1%;">
-    <img src="https://github.com/user-attachments/assets/ab2339c1-0d05-40d5-9e8a-6b87c8d2fda1" alt="Yummy 1"  style="width: 48%;">
+    <img src="https://github.com/user-attachments/assets/a28d86ff-1059-4977-9f5c-2a6be6143973" alt="Login-Register-1"  style="width: 48%; margin-right: 1%;">
+    <img src="https://github.com/user-attachments/assets/e711337d-5d92-4192-864a-ac3335a16f73" alt="Login-Register-2"  style="width: 48%;">
 </div>
 
 
