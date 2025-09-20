@@ -641,7 +641,7 @@ input:invalid {
         transform: translate(-50%, 0);
     }
 
-    
+
 }
 
 @media (min-width: 570px) and (max-width: 870px) {
@@ -684,7 +684,7 @@ input:invalid {
 
     .sign-up {
         margin: 5px 0px;
-        padding: 2px 8px ;
+        padding: 2px 8px;
     }
 
     .social-text {
@@ -830,6 +830,10 @@ input:invalid {
     .container.sign-up-mode .signin-signup {
         top: 5%;
         transform: translate(-50%, 0);
+    }
+
+    .error-message {
+        font-size: 12px;
     }
 
 }

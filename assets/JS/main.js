@@ -272,7 +272,7 @@ const SessionManager = {
             const session = localStorage.getItem(CONFIG.STORAGE_KEYS.SESSION) ||
                 sessionStorage.getItem(CONFIG.STORAGE_KEYS.SESSION);
             const parsedSession = session ? JSON.parse(session) : null;
-            console.log('Retrieved session:', parsedSession);
+            // console.log('Retrieved session:', parsedSession);
             return parsedSession;
         } catch (error) {
             console.error('Session get error:', error);
@@ -644,7 +644,7 @@ const HomePage = {
             return;
         }
 
-        console.log('Initializing home page with session:', session);
+        // console.log('Initializing home page with session:', session);
 
         const elements = {
             welcomeMessage: safeQuerySelector('#welcome-message'),
@@ -766,7 +766,7 @@ function showUserProfile() {
         return;
     }
 
-    console.log('Showing user profile with session:', session);
+    // console.log('Showing user profile with session:', session);
 
     const profileUsername = safeQuerySelector('#profile-username');
     const profileEmail = safeQuerySelector('#profile-email');
@@ -785,7 +785,7 @@ function showEditProfile() {
         return;
     }
 
-    console.log('Showing edit profile with session:', session);
+    // console.log('Showing edit profile with session:', session);
 
     const editUsername = safeQuerySelector('#editUsername');
     const editEmail = safeQuerySelector('#editEmail');
